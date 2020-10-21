@@ -1,6 +1,6 @@
 {
   "name": "file-upload",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Microservice to return file meta-data",
   "main": "app.js",
   "scripts": {
