@@ -12,11 +12,11 @@
         <h2>A microservice which returns a file's name, type and size in JSON format</h2>
     </header>
     <main>
-        <form method="POST" action="/api/fileanalyse" enctype="multipart/form-data" id="uploadForm">
-            <label onclick="javascript:document.getElementById('upfile').click();console.log('clicked')">
+        <form method="POST" action="/api/fileanalyse" enctype="multipart/form-data">
+            <label onclick="javascript:document.getElementById('input-file').click();console.log('clicked')">
                 Select File ☝
             </label>
-            <input type="file" name="upfile" id="upfile" hidden/>
+            <input type="file" name="upfile" id="input-file" hidden/>
             <button type="submit" id="submit"><span>🤓</span><br/>Get Data</button>
         </form>
     </main>
