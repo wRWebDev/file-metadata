@@ -1,0 +1,17 @@
+{
+  "name": "file-upload",
+  "version": "1.0.0",
+  "description": "Microservice to return file meta-data",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "wRWebDev",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.0"
+  }
+}
